@@ -1,0 +1,57 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("dingus gui v1 | early access", "Ocean")
+    -- MAIN
+    local locks = Window:NewTab("locks")
+    local locksSection = locks:NewSection("locks")
+
+
+    locksSection:NewButton("old thusky", "very op lock", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/cKanGiLv'))()
+    end)
+
+    locksSection:NewButton("new thusky", "new thusky op", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/TzDrnrQH'))()
+    end)
+
+	locksSection:NewButton("thusky tracer", "good tracer", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/YVZQgvV0'))()
+    end)
+
+    --cframe
+    local cframe = Window:NewTab("cframe")
+    local cframeSection = cframe:NewSection("cframe")
+
+    cframeSection:NewButton("cframe", "makes u go fast", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/jiVrJe6i'))()
+    end)
+
+    cframeSection:NewButton("fake macro", "makes u go fast but fake", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/R1K3Vxj3'))()
+    end)
+    
+    --godmode
+    local godmode = Window:NewTab("godmode")
+    local godmodeSection = godmode:NewSection("godmode")
+    
+    godmodeSection:NewButton("full godmode", "u never die", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/jiVrJe6i'))()
+    end)
+
+
+--Other
+local Other = Window:NewTab("Other")
+local OtherSection = Other:NewSection("other")
+OtherSection:NewLabel("join my discord server https://discord.gg/smRbMQFd")
+
+OtherSection:NewLabel("real dingus#6354 creator")
+
+OtherSection:NewLabel("creds: me cuz am pro")
+
+OtherSection:NewKeybind("Toggle gui", "hides the gui", Enum.KeyCode.F, function()
+	Library:ToggleUI(z)
+end)
+
+
+OtherSection:NewButton("infinite yield", "FE admin commands", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/KQjPgjeX'))()
+    end)
