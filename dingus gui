@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("dingus da hood gui | beta 1.0", "DarkTheme")
+local Window = Library.CreateLib("dingus da hood gui v1 | beta 1.0", "DarkTheme")
     -- MAIN
     local locks = Window:NewTab("locks")
     local locksSection = locks:NewSection("locks")
