@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("dingus gui v1 | beta 1.0", "DarkTheme")
+local Window = Library.CreateLib("dingus da hood gui | beta 1.0", "DarkTheme")
     -- MAIN
     local locks = Window:NewTab("locks")
     local locksSection = locks:NewSection("locks")
@@ -79,7 +79,7 @@ local Other = Window:NewTab("Other")
 local OtherSection = Other:NewSection("other")
 OtherSection:NewLabel("join my discord server https://discord.gg/smRbMQFd")
 
-OtherSection:NewLabel("real dingus#6354 creator")
+OtherSection:NewLabel("da hood gui by real dingus#6354")
 
 OtherSection:NewLabel("creds: me cuz am pro")
 
@@ -93,3 +93,4 @@ end)
 OtherSection:NewButton("infinite yield", "FE admin commands", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/KQjPgjeX'))()
     end)
+    
