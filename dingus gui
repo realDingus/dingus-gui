@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("dingus gui v1 | early access", "Ocean")
+local Window = Library.CreateLib("dingus gui v1 | beta 2.0.", "DarkTheme")
     -- MAIN
     local locks = Window:NewTab("locks")
     local locksSection = locks:NewSection("locks")
@@ -17,6 +17,11 @@ local Window = Library.CreateLib("dingus gui v1 | early access", "Ocean")
     loadstring(game:HttpGet('https://pastebin.com/raw/YVZQgvV0'))()
     end)
 
+    locksSection:NewButton("earth silent aim", "best silent aim", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/xfQSRusv'))()
+    end)
+
+
     --cframe
     local cframe = Window:NewTab("cframe")
     local cframeSection = cframe:NewSection("cframe")
@@ -29,6 +34,30 @@ local Window = Library.CreateLib("dingus gui v1 | early access", "Ocean")
         loadstring(game:HttpGet('https://pastebin.com/raw/R1K3Vxj3'))()
     end)
     
+--Player
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player")
+
+PlayerSection:NewButton("korblox and headless", "fake korblox and headless", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/aUkeQtK5'))()
+end)
+
+PlayerSection:NewButton("tryhard animation", "Semi FE tryhard animation", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/3c1B2QFJ'))()
+end)
+
+PlayerSection:NewButton("giant", "makes u giant (need to be max fat)", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/rmjZrM29'))()
+end)
+
+PlayerSection:NewButton("tiny", "makes you tiny", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/kg3n1Zt9'))()
+end)
+
+PlayerSection:NewButton("da hood crasher", "crashes server", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/dhcrash_gen2/main/crash", true))()
+end)
+
     --godmode
     local godmode = Window:NewTab("godmode")
     local godmodeSection = godmode:NewSection("godmode")
@@ -37,6 +66,13 @@ local Window = Library.CreateLib("dingus gui v1 | early access", "Ocean")
     loadstring(game:HttpGet('https://pastebin.com/raw/jiVrJe6i'))()
     end)
 
+    godmodeSection:NewButton("godmode melee", "you can't die from a melee", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/phqNSSUd'))()
+        end)
+    
+        godmodeSection:NewButton("godmode guns", "you can't die from guns", function()
+            loadstring(game:HttpGet('https://pastebin.com/raw/qQFVqrTx'))()
+            end)
 
 --Other
 local Other = Window:NewTab("Other")
@@ -46,6 +82,8 @@ OtherSection:NewLabel("join my discord server https://discord.gg/smRbMQFd")
 OtherSection:NewLabel("real dingus#6354 creator")
 
 OtherSection:NewLabel("creds: me cuz am pro")
+
+OtherSection:NewLabel("some scripts might not work")
 
 OtherSection:NewKeybind("Toggle gui", "hides the gui", Enum.KeyCode.F, function()
 	Library:ToggleUI(z)
