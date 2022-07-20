@@ -131,7 +131,9 @@ AntiStuffSection:NewButton("anti afk", "never get kicked for being idle 20 mins"
     loadstring(game:httpget('https://pastebin.com/raw/40Hs37nL'))()
 end)
 
-
+AntiStuffSection:NewButton("anti lock", "break people lock", function()
+	loadstring(game:HttpGet("https://github.com/zuwdaq/anti-lock-v2/blob/main/anti%20lock%20v2", true))()
+end)
 
 --FunnyScripts
 local FunnyScripts = Window:NewTab("FunnyScripts")
@@ -149,6 +151,9 @@ FunnyScriptsSection:NewButton("mimic", "be a MIMIC avatar in discord server", fu
     loadstring(game:HttpGet('https://pastebin.com/raw/KBc5w7qS'))()
 end)
 
+FunnyScriptsSection:NewButton("flips", "back flip: x | front flip: z | inf jump: c", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/crPcd0vq'))()
+end)
 
 --Player
 local Player = Window:NewTab("Player")
